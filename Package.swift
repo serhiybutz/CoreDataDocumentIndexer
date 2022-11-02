@@ -14,7 +14,7 @@ let package = Package(
             targets: ["CoreDataDocumentIndexer"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SergeBouts/DocumentIndexer", .upToNextMajor(from: "1.3.0")),
+        .package(url: "https://github.com/SerhiyButz/DocumentIndexer", .upToNextMajor(from: "1.4.0")),
     ],
     targets: [
         .target(

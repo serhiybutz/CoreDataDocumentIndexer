@@ -2,7 +2,7 @@
     <img src="https://img.shields.io/badge/Swift-4.2-orange" alt="Swift" />
     <img src="https://img.shields.io/badge/platform-osx-orange" alt="Platform" />
     <img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-orange" alt="SPM" />
-    <a href="https://github.com/SergeBouts/CoreDataDocumentIndexer/blob/master/LICENSE">
+    <a href="https://github.com/SerhiyButz/CoreDataDocumentIndexer/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/licence-MIT-orange" alt="License" />
     </a>
 </p>
@@ -22,11 +22,11 @@ A *Core Data*-aware document indexer, a convenient *Swifty* wrapper for *Apple's
 - Relevance ranking and statistical analysis of documents
 - Thread-safe
 
-Basically, **Core Data Document Indexer** builds up a layer around [Document Indexer](https://github.com/SergeBouts/DocumentIndexer) to provide *Core Data*-based document indexing and searching functionality, so that it can be used in a more *Swift*-friendly way. 
+Basically, **Core Data Document Indexer** builds up a layer around [Document Indexer](https://github.com/SerhiyButz/DocumentIndexer) to provide *Core Data*-based document indexing and searching functionality, so that it can be used in a more *Swift*-friendly way. 
 
  ## Usage
 
-Since **Core Data Document Indexer** borrows the capablities of the [Document Indexer](https://github.com/SergeBouts/DocumentIndexer) module, the usage illustrates only those aspects that differ. For more details refer to the documentation for [Document Indexer](https://github.com/SergeBouts/DocumentIndexer) itself.
+Since **Core Data Document Indexer** borrows the capablities of the [Document Indexer](https://github.com/SerhiyButz/DocumentIndexer) module, the usage illustrates only those aspects that differ. For more details refer to the documentation for [Document Indexer](https://github.com/SerhiyButz/DocumentIndexer) itself.
 
 ### Creating an in-memory Core Data-aware document index
 
@@ -130,7 +130,7 @@ The search completion closure receives the results in the form of a hit object a
 1. Go to "File" -> "Swift Packages" -> "Add Package Dependency"
 2. Paste Core Data Document Indexer repository URL into the search field:
 
-`https://github.com/SergeBouts/CoreDataDocumentIndexer.git`
+`https://github.com/SerhiyButz/CoreDataDocumentIndexer.git`
 
 3. Click "Next"
 
